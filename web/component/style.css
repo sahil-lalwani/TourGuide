@@ -1,0 +1,90 @@
+
+.box {
+  border: 2px solid #000;
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.box img {
+  width: 100%;
+  height: auto;
+}
+#colr {
+  color: white;
+}
+.tWhite {
+  color: white;
+}
+
+#BRAN {
+  transition: all 0.5s;
+}
+#BRAN:hover {
+  color: aqua;
+}
+.formBoxShadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container-images {
+  height: 639px;
+  width: 100%;
+  position: relative;
+}
+.container-images img {
+  height: 100%;
+  width: 100%;
+}
+
+.advent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.advent h1 {
+  color: #0ba7c27e;
+  font-weight: 900;
+  letter-spacing: 1;
+}
+.advent p {
+  color: blue;
+  text-transform: uppercase;
+}
+.content {
+  background: #000;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 0.5s;
+}
+.content h3 {
+  color: aqua;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.box:hover .content {
+  top: 0;
+}
+
+.heading {
+  text-align: center;
+  padding: 4px;
+  margin: 8px;
+  background-color: aqua;
+  text-transform: capitalize;
+}
+
+.section-card{
+ background-color:  #D3D3D3;
+}
